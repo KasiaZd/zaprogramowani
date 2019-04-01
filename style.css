@@ -2,3 +2,7 @@
 {
 	background:blue;
 }
+#tresc
+{
+	background-image:linear-gradient(to right,green,red);
+}
