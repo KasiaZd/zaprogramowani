@@ -1,0 +1,2 @@
+Na następne zajęcia dodaj div o id="nowy" do części HTML
+Sformatuj jego atrybuty CSS podobnie jak dotychczasowe divy, nadając mu atrybuty: text-align, font-size, background,color.
