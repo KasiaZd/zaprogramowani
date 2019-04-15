@@ -1,0 +1,74 @@
+body
+{
+	background:#F0F8FF;
+}
+#header
+{
+	background: hotpink;
+	width: 100%;
+	float:left;
+}
+#naglowek 
+{
+	/*background:	blue;
+    color:white;*/
+	font-size: 3em;
+	text-align: center;
+}
+ul {
+float: right;
+width: 100%;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+li a {
+display: block;
+float: right;
+text-align: center;
+font-size: 1.2em;
+width: 130px;
+text-decoration: none;
+color: aqua;
+background-color: blue;
+padding: 10px 15px;
+margin: 0px 1px 1px 0px;
+border: 1px solid navy;
+border-radius: 3px;
+/*-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+box-shadow: 0px 2px 3px gray;
+-moz-box-shadow: 0px 2px 3px gray;
+-webkit-box-shadow: 0px 2px 3px gray;*/
+}
+
+li a:hover {
+color: blue;
+background: aqua;
+border: 1px solid ;
+}
+#tresc
+{
+	/*background-image:linear-gradient(to right,green,red);*/
+	/*text-align: center;
+	font-size: 1.5em;*/
+}
+
+#drugi 
+{
+	/*text-align: center;
+	background: #45FFF0;
+	font-size: 1.3em;*/
+}
+#stronka
+{
+	 background: #F0F8FF;
+	 font-size: 1em;
+	 text-align:justify;
+}
+#stopka
+{
+		background:#9ACD32;
+		text-align:center;
+}
