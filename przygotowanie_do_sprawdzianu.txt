@@ -1,0 +1,11 @@
+Napisz prostą stronę opartą o divy, zawierającą: 
+-sekcję header, 
+-w headerze logo,
+-menu, w menu odnośniki do stron: 
+									home(ta strona),
+									kontakt(strona kontaktu),
+-sekcję body,
+-w body naglowek,
+-artykul,
+-sekcję stopka,
+-w stopce copyright imię i rok. 
