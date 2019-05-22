@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+
+<p>W momencie kiedy klikniesz przycisk poniżej zmieni się napis z Testowe kliknięcie na hello world. Załatwiamy to funkcją onclick.</p>
+
+<button onclick="funkcjaKliku()">Kliknij</button>
+
+<p id="klikniecie">Testowe klikniecie</p>
+
+<p>Kiedy klikniesz poniższy przycisk wywołasz alert, który zablokuje wszystkie inne czynności, które możesz wykonać na stronie.</p>
+<button onclick="alert1()">Wywołaj alert</button>
+
+<p id="znik"> Ten napis zniknie po 5000ms.</p>
+<script>
+function alert1()
+{
+alert("Czy chcesz przejść dalej?");
+}
+
+function funkcjaKliku() {
+  document.getElementById("klikniecie").innerHTML = "Hello World";
+}
+
+setTimeout(function(){
+document.getElementById('znik').innerHTML = '';
+}, 5000)
+</script>
+
+</body>
+</html>
+
