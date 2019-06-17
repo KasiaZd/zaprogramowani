@@ -1,0 +1,47 @@
+<html>
+<head>	
+</head>
+<body>
+	
+	<script>
+		function pitagoras(form)
+		{
+			if (form.a.value=='' && form.b.value=='' || 
+			form.a.value=='' && form.c.value=='' || 
+			form.b.value=='' && form.c.value=='') 
+			alert ('podaj dwie z trzech wartości'); else
+			{
+				a=form.a.value;
+				b=form.b.value;
+				c=form.c.value;
+			{
+				if(form.a.value!='' && form.b.value!='')
+				{
+					c=(a*a)+(b*b);
+					form.c.value=Math.sqrt(c,2);
+				}
+				if(form.a.value!='' && form.c.value!='')
+				{
+					b=(c*c)/(a*a);
+					form.b.value=Math.sqrt(b,2);
+				}
+				if(form.c.value!='' && form.b.value!='')
+				{
+					a=(c*c)/(b*b);
+					form.a.value=Math.sqrt(a,2);
+				}
+			}
+		}
+	}
+	</script>
+	
+	<form name="form" action="">
+		Podaj a: <input type="text" name="a"><br><br>
+		Podaj b: <input type="text" name="b"><br><br>
+		<input type="button" value="Oblicz" onClick="pitagoras(this.form)"><br><br>
+		Pitagoras: <input type="text" name="c"><br><!--br>
+		Obwód koła: <input type="text" name="o"-->
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head>	
+</head>
+<body>
+	
+	<script>
+		function obwodKola(form)
+		{
+			if (form.r.value=='') alert ('podaj promień'); else
+			{
+				r=form.r.value;
+				PI=3.14;
+				form.p.value=PI*(r*r);
+				form.o.value=2*PI*r;
+			}
+		}
+	</script>
+	
+	<form name="form" action="">
+		Podaj promień: <input type="text" name="r"><br><br>
+		<input type="button" value="Oblicz" onClick="obwodKola(this.form)"><br><br>
+		Pole koła: <input type="text" name="p"><br><br>
+		Obwód koła: <input type="text" name="o">
+	</form>
+</body>
+
+</html>
